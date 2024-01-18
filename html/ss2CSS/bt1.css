@@ -1,0 +1,17 @@
+h2 {
+  margin-left: 20px;
+  color: yellow;
+}
+
+.xanh {
+  margin-left: 20px;
+  color: blue;
+}
+#do {
+  margin-left: 20px;
+  color: red;
+}
+#nen {
+  background-color: yellow;
+  padding: 20px;
+}

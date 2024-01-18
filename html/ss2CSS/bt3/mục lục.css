@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  margin-right: 500px;
+}
+ol {
+  margin-left: 300px;
+}
+#vang {
+  color: rgb(193, 193, 37);
+}
+#xanh {
+  color: rgb(53, 155, 243);
+}
+#cam {
+  color: orangered;
+}
+#do {
+  color: rgb(234, 79, 23);
+}
+#xám {
+  color: rgb(153, 148, 148);
+}
