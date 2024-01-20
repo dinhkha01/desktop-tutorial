@@ -1,13 +1,23 @@
 h1 {
   text-align: center;
+  color: whitesmoke;
 }
 h3 {
+  color: goldenrod;
   text-align: center;
-  margin-right: 500px;
+  margin-right: 800px;
 }
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2016/08/27/11/59/pokemon-1624022_1280.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 ol {
-  margin-left: 300px;
+  text-align: center;
+  margin-right: 700px;
 }
+
 #vang {
   color: rgb(193, 193, 37);
 }
