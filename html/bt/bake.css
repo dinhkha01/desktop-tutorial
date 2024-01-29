@@ -6,8 +6,35 @@
 .item0 {
   display: grid;
   grid-area: item0;
-  background-color: blue;
+  background-image: url(img/b3.jpg);
+  height: 500px;
+  place-items: center;
 }
+.dau li {
+  display: block;
+  list-style-type: none;
+  padding: 10px 15px;
+}
+.dau {
+  margin-top: 10px;
+  color: white;
+}
+.best {
+  font-size: 200%;
+  padding-left: 54px;
+}
+.Learn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  background-color: palevioletred;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 115px;
+}
+
 .item1 {
   display: grid;
 
@@ -70,6 +97,7 @@ img {
 .all {
   display: grid;
   grid-template-areas:
+    "item0 item0 item0 item0"
     "item1 item2 item2 item3"
     "item4 item4 item5 item6"
     "item7 item8 item9 item9";
@@ -105,7 +133,7 @@ p {
 @media screen and (min-width: 768px) and (max-width: 1400px) {
   .all {
     grid-template-areas:
-      "item0 item0 item0 item0"
+      ""
       "item1 item1 item1 item1"
       "item2 item2 item2 item2"
       "item3 item3 item3 item3"
