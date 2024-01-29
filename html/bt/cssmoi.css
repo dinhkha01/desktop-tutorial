@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: blueviolet;
+}
+
+nav .menu li p {
+  color: #fff;
+  display: block;
+  padding: 8px 15px;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bake {
+  text-align: center;
+  font-size: 35px;
+  padding: 8px 102px;
+}
+.toggle {
+  text-align: end;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+li {
+  font-size: 10px;
+  padding: 10px;
+}
+
+.ne {
+  text-align: right;
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    flex-direction: column;
+    text-align: center;
+  }
+}

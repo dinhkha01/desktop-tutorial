@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.item0 {
+  display: grid;
+  grid-area: item0;
+  background-color: blue;
+}
+.item1 {
+  display: grid;
+
+  place-items: center;
+  text-align: center;
+  flex-grow: 1;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  grid-area: item1;
+  color: white;
+
+  background-color: blueviolet;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  display: grid;
+  place-items: center;
+  grid-area: item3;
+  color: white;
+  background-color: palevioletred;
+}
+.item4 {
+  display: grid;
+  place-items: center;
+  grid-area: item4;
+  color: white;
+  background-color: palevioletred;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  display: grid;
+  place-items: center;
+  grid-area: item6;
+  color: white;
+  background-color: blueviolet;
+}
+.item7 {
+  grid-area: item7;
+}
+.item8 {
+  display: grid;
+  place-items: center;
+  grid-area: item8;
+  color: white;
+  background-color: blueviolet;
+}
+.item9 {
+  grid-area: item9;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.all {
+  display: grid;
+  grid-template-areas:
+    "item1 item2 item2 item3"
+    "item4 item4 item5 item6"
+    "item7 item8 item9 item9";
+}
+.item1 {
+  background-color: blueviolet;
+}
+.chu1 {
+  padding-bottom: 200px;
+  text-align: center;
+}
+.chu2 {
+  padding-bottom: 200px;
+  text-align: center;
+}
+h2 {
+  color: white;
+  /* padding: 5em 2em 0em; */
+  font-size: 27px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: rgb(193, 193, 193);
+  padding: 15px;
+  letter-spacing: 1px;
+  font-family: Montserrat, sans-serif;
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .all {
+    grid-template-areas:
+      "item0 item0 item0 item0"
+      "item1 item1 item1 item1"
+      "item2 item2 item2 item2"
+      "item3 item3 item3 item3"
+      "item4 item4 item4 item4"
+      "item5 item5 item5 item5"
+      "item6 item6 item6 item6"
+      "item7 item7 item7 item7"
+      "item8 item8 item8 item8"
+      "item9 item9 item9 item9";
+  }
+}
