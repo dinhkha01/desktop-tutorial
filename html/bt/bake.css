@@ -198,10 +198,17 @@ li {
   nav {
     display: block;
   }
+  .bake {
+    display: inline-block;
+  }
+  .menu {
+    display: none;
+  }
   .toggle {
     display: block;
     position: absolute;
-    top: 0;
+    font-size: 20px;
+    top: 15px;
     right: 0;
   }
   .all {
