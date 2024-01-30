@@ -41,6 +41,7 @@
   height: 80px;
   background-color: palevioletred;
   color: white;
+
   border-radius: 10px;
   margin-bottom: 115px;
 }
@@ -140,11 +141,10 @@ p {
   letter-spacing: 1px;
   font-family: Montserrat, sans-serif;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: blueviolet;
 }
 
@@ -159,13 +159,15 @@ nav .menu li p {
   justify-content: center;
   align-items: center;
 }
+#pink {
+  color: palevioletred;
+}
 .bake {
   text-align: center;
   font-size: 35px;
   padding: 8px 102px;
 }
 .toggle {
-  text-align: end;
   display: flex;
   justify-content: end;
   align-items: center;
