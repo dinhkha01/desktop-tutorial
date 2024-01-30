@@ -176,7 +176,9 @@ li {
   font-size: 10px;
   padding: 10px;
 }
-
+.Learn:hover {
+  background: red;
+}
 .ne {
   text-align: right;
 }
