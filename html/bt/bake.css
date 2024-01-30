@@ -10,6 +10,16 @@
   height: 500px;
   place-items: center;
 }
+.item1,
+.item3,
+.item4,
+.item6,
+.item8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .dau li {
   display: block;
   list-style-type: none;
@@ -130,10 +140,55 @@ p {
   letter-spacing: 1px;
   font-family: Montserrat, sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: blueviolet;
+}
+
+nav .menu li p {
+  color: #fff;
+  display: block;
+  padding: 8px 15px;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bake {
+  text-align: center;
+  font-size: 35px;
+  padding: 8px 102px;
+}
+.toggle {
+  text-align: end;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+li {
+  font-size: 10px;
+  padding: 10px;
+}
+
+.ne {
+  text-align: right;
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1400px) {
   .all {
     grid-template-areas:
-      ""
+      "item0 item0 item0 item0"
       "item1 item1 item1 item1"
       "item2 item2 item2 item2"
       "item3 item3 item3 item3"
