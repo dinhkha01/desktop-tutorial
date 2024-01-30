@@ -11,6 +11,8 @@ body {
   display: grid;
   grid-area: item0;
   background-image: url(img/b3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
   place-items: center;
 }
@@ -45,7 +47,7 @@ body {
   height: 80px;
   background-color: palevioletred;
   color: white;
-
+  cursor: pointer;
   border-radius: 10px;
   margin-bottom: 115px;
 }
@@ -154,6 +156,10 @@ nav .menu li p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.menu :hover {
+  background: plum;
+  transition: all 0.3s;
 }
 #pink {
   color: palevioletred;
