@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  letter-spacing: 1px;
+  font-family: Montserrat, sans-serif;
+}
 .item0 {
   display: grid;
   grid-area: item0;
@@ -47,10 +51,6 @@
 }
 
 .item1 {
-  display: grid;
-
-  place-items: center;
-  text-align: center;
   flex-grow: 1;
   padding: 20px;
   color: white;
@@ -64,15 +64,13 @@
   grid-area: item2;
 }
 .item3 {
-  display: grid;
-  place-items: center;
+  text-align: center;
   grid-area: item3;
   color: white;
   background-color: palevioletred;
 }
 .item4 {
-  display: grid;
-  place-items: center;
+  text-align: center;
   grid-area: item4;
   color: white;
   background-color: palevioletred;
@@ -81,8 +79,7 @@
   grid-area: item5;
 }
 .item6 {
-  display: grid;
-  place-items: center;
+  text-align: center;
   grid-area: item6;
   color: white;
   background-color: blueviolet;
@@ -91,8 +88,7 @@
   grid-area: item7;
 }
 .item8 {
-  display: grid;
-  place-items: center;
+  text-align: center;
   grid-area: item8;
   color: white;
   background-color: blueviolet;
@@ -182,7 +178,10 @@ li {
 .ne {
   text-align: right;
 }
-@media screen and (max-width: 800px) {
+.toggle {
+  display: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
   .menu {
     flex-direction: column;
     text-align: center;
@@ -190,6 +189,15 @@ li {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1400px) {
+  nav {
+    display: block;
+  }
+  .toggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
   .all {
     grid-template-areas:
       "item0 item0 item0 item0"
