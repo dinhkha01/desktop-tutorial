@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  font-family: Montserrat, sans-serif;
+}
+.box_1 {
+  grid-area: box1;
+}
+.box_2 {
+  grid-area: box2;
+}
+.box_3 {
+  grid-area: box3;
+}
+.box {
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  display: grid;
+  grid-template-areas:
+    "box1 box2"
+    "box3 box3";
+}
+.card1 {
+  grid-area: card1;
+}
+.card2 {
+  grid-area: card2;
+}
+.card3 {
+  grid-area: card3;
+}
+.card4 {
+  grid-area: card4;
+}
+.card5 {
+  grid-area: card5;
+}
+.card6 {
+  grid-area: card6;
+}
+.card7 {
+  grid-area: card7;
+}
+.card8 {
+  grid-area: card8;
+}
+
+.box_3 {
+  display: grid;
+  grid-template-areas:
+    "card1 card2 card3 card4 card5"
+    "card0 card6 card7 card8 card8";
+
+  /* "card6 card6 card7 card8 card8"; */
+}
+.icon {
+  display: flex;
+  letter-spacing: 5px;
+}
+table {
+  padding: 20px;
+}
+.hi {
+  padding: 0px 20px;
+}
+img {
+  width: 70px;
+  height: 85px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+  height: 100px;
+  display: flex;
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.card1_android {
+  margin-left: 15px;
+}
