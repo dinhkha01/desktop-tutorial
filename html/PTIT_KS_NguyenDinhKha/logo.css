@@ -250,7 +250,7 @@ h3 {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 90%;
-  width: 300px;
+  width: 315px;
 }
 .mid_bot-card1 {
   grid-area: the1;
@@ -296,6 +296,7 @@ h3 {
 .mid_bot-card1-3,
 .mid_bot-card1-4,
 .mid_bot-card1-5 {
+  width: 335px;
   display: flex;
   place-items: center;
 }
@@ -305,6 +306,7 @@ h3 {
 .mid_bot-card1-chu4,
 .mid_bot-card1-chu5 {
   margin-left: 10px;
+  margin-top: 10px;
 }
 .mid_bot-card1-ba1,
 .mid_bot-card1-ba2,
@@ -338,4 +340,56 @@ h3 {
   height: 35px;
   margin-left: 675px;
   border-radius: 5px;
+}
+.butter {
+  background-color: #bdbaba;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.container_send {
+  background-color: #62c8fb;
+  border-radius: 5px;
+  border: 1px solid white;
+  height: 40px;
+}
+.form {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+.colum_2-img1 img {
+  width: 180px;
+  height: 135px;
+}
+.colum_2 .fa {
+  background-color: #e5e5e5;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  content: center;
+  position: relative;
+  top: -10px;
+}
+.colum_2-2 {
+  position: relative;
+  top: -70px;
+}
+.hr {
+  position: relative;
+  top: -35px;
+}
+.time {
+  font-size: 10px;
+}
+.colum_2-img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: -80px;
+  width: 100px;
+  height: 100px;
 }
